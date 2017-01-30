@@ -11,12 +11,13 @@
 
 //*********************** VARIABLES *****************************
 
-
+int sensorValue = 0;
 
 //************************** SETUP ******************************
 
 void setup() {                //Inicia el bloc
 // 
+ 
   pinMode(3,OUTPUT) ;
 
 }                             //Finalitza el bloc
@@ -30,6 +31,6 @@ void loop() {                 // inicia el bucle del programa
 analogWrite(3,sensorValue/4) ;
   }
 
-}                          //Finalitza el bloc
+                         //Finalitza el bloc
 
 //************************** FUNCIONS ***************************
